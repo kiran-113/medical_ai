@@ -158,7 +158,6 @@ if uploaded_file or 'camera_image' in locals():
 # # if not api_key:
 # #     raise ValueError("GOOGLE_GEMINI_API_KEY not found in .env file. Please add it.")
 
-# api_key = "AIzaSyCxBUw6VGe4wDeh6GZ4dqeDX-QtL_0fPGM"
 
 # # Configure the API
 # genai.configure(api_key=api_key)
