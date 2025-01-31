@@ -1,13 +1,11 @@
 import streamlit as st
 from pathlib import Path
-from dotenv import load_dotenv
 import google.generativeai as genai
 import os
 from PIL import Image
 import io
 
-# Load environment variables from .env file
-load_dotenv()
+
 
 # Configure the API key
 api_key = os.getenv("GOOGLE_GEMINI_API_KEY")
